@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sticky notes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="left">
+				<form action="">
+					<div class="inputs">
+						<textarea name="textarea" id="" placeholder="//Write a note here"></textarea>
+					<input type="color"name="color" value="#70ff90">
+					</div>
+					<button type="submit">Add note</button>
+				</form>
+		</div>
+		<div class="right">
+			<h2>Your Notes</h2>
+			<hr>
+			<div class="notes-container">
+				<button class="undo">Undo..</button>
+	
+			</div>
+			<span>
+				<p>You have not added a note yet....</p></span>
+		</div>
+		<script src="/sticky.js"></script>
+	</div>
+</body>
+</html>
