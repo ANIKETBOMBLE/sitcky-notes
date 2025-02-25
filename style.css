@@ -6,9 +6,8 @@
 
 #wrapper{
 	display: flex;
-	max-height: 100vh;
-	flex-wrap: wrap;
-	
+	height: 100vh;
+	overflow: auto;
 }
 .left ,
 .right{
@@ -76,11 +75,9 @@ padding: 1rem;
 
 
 .notes-container{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	display: flex;
 	gap: 5px;
 	flex-wrap: wrap;
-
 }
 
 .note{
@@ -92,7 +89,6 @@ padding: 1rem;
 	position: relative;
 	width: 200px;
     height: 100px;
-	max-width: 100%;
 
 }
 
